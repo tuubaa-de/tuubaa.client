@@ -1,10 +1,13 @@
-import { Config } from "@/component/developer/config";
+import Config from "@/components/developer/config";
 
-export default function Dasbhoard() {
+function Developer() {
   return (
-    <div>
-      <h1>Dashboard</h1>
+    <main className="max-w-3xl mx-auto mt-5 dark:bg-">
+      <h1 className="text-4xl">Developer</h1>
+      <h2>Config</h2>
       <Config />
-    </div>
+    </main>
   );
 }
+
+export default Developer;

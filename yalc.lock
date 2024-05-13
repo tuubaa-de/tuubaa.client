@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "tuubaa.server": {
+      "signature": "db1eb55cd97cb88c8c4711f12e828627",
+      "file": true
+    }
+  }
+}
